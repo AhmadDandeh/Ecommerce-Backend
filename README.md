@@ -13,20 +13,21 @@ A scalable, production-ready eCommerce Backend architecture designed to handle m
 
 I am currently following a **6-Stage Engineering Path** to ensure each layer of the application meets industry standards for performance and security.
 
-### 🏗️ Stage 1: Core Logic & Domain Foundations `(Current Focus)`
+### 🏗️ Stage 1: Core Logic & Domain Foundations `(Completed ✅)`
 - [x] **Domain Models**: Implementing core entities (`Product`, `User`, `Order`) with OOP best practices.
-- [x] **Custom Exception Handling**: Building a robust global exception handler for clean API responses.
-- [ ] **Stream API Integration**: Utilizing Java Streams for high-performance data filtering and manipulation.
+- [x] **Repository Pattern**: Abstracting data access using Singleton-based in-memory storage.
+- [x] **Stream API Integration**: Utilizing Java Streams for high-performance data filtering (Search & Totals).
+- [x] **Service Layer**: Decoupling business logic (Cart, Orders) from the User Interface.
+- [ ] **Custom Exception Handling**: (Planned for Spring Boot migration).
 
-### 🌐 Stage 2: RESTful API Layer `(Next Step)`
+### 🌐 Stage 2: RESTful API Layer `(Next Step ⚡)`
 - [ ] **Spring Boot Setup**: Initializing the micro-framework with specialized dependencies.
 - [ ] **REST Controllers**: Mapping business logic to HTTP endpoints.
 - [ ] **Data Transfer Objects (DTOs)**: Decoupling internal entities from public API responses.
 
 ### 🗄️ Stage 3: Data Persistence & ORM
-- [ ] **Database Integration**: Connecting to PostgreSQL for reliable storage.
-- [ ] **Spring Data JPA & Hibernate**: Managing complex entity relationships (`@OneToMany`, `@ManyToMany`).
-- [ ] **Liquibase/Flyway**: Implementing database version control (Planned).
+- [ ] **Database Integration**: Connecting to MySQL for reliable storage.
+- [ ] **Spring Data JPA & Hibernate**: Managing complex entity relationships.
 
 ### 🔐 Stage 4: Security & Identity Management
 - [ ] **Spring Security**: Implementing a robust security filter chain.
@@ -51,11 +52,6 @@ I am currently following a **6-Stage Engineering Path** to ensure each layer of 
 * **Persistence:** Spring Data JPA / Hibernate
 * **Database:** PostgreSQL
 * **Tools:** Maven, Git, IntelliJ IDEA, Docker
-
----
-
-## 🎓 Academic Context
-This project is developed alongside my **PhD research at Eötvös Loránd University (ELTE)**, focusing on bridging the gap between advanced algorithmic theory and practical software engineering.
 
 ---
 
